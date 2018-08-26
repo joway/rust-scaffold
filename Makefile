@@ -9,3 +9,6 @@ dev:
 
 release:
 	cargo build --release
+
+image:
+	docker build . -t rust-scaffold:v1
