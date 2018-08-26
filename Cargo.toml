@@ -1,0 +1,17 @@
+[package]
+name = "rust-scaffold"
+version = "0.0.1"
+authors = [ "Joway Wang <joway.w@gmail.com>" ]
+
+[[bin]]
+name = "rust-scaffold"
+path = "src/main.rs"
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
+
+[dependencies]
+rand = "0.3.0"
